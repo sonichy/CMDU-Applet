@@ -1,1 +1,1 @@
-Hello CMDU-Applet
+CMDU for GNOME Panel Applet
