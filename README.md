@@ -3,6 +3,13 @@
 
 ![image](preview.png)
 
+开发库：  
+Ubuntu：libpanel-applet
+
+StartOS：gnome-panel-dev，gconf-dev，gorbit-dev，libbonobo-dev，libbonoboui-dev，libgnomecanvas-dev，libart-lgpl-dev，gnome-vfs-dev，libcanberra-dev，popt-dev。
+
+Geany编译命令：gcc -o "%e" "%f" -lm `pkg-config --cflags --libs libpanelapplet-2.0`
+
 添加方法：
 编译applet.c，修改applet.server文件里的location=程序路径，复制applet.server文件到/usr/lib/bonobo/servers/路径下，重启gnome-panel进程，然后在面板右键里点击添加到面板。
 ![image](Add%20Applet.png)
