@@ -1,0 +1,22 @@
+<oaf_info>
+    <oaf_server iid="OAFIID:ExampleApplet_Factory" type="exe" location="/host/HY/Linux/Applets/applets">
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:Bonobo/GenericFactory:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="Example Applet"/>
+        <oaf_attribute name="description" type="string" value="A GNOME Example Applet"/>
+    </oaf_server>
+
+    <oaf_server iid="OAFIID:ExampleApplet" type="factory" location="OAFIID:ExampleApplet_Factory">
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+                <item value="IDL:Bonobo/Control:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="系统监控"/>
+        <oaf_attribute name="description" type="string" value="监控系统开机时间、CPU使用率、内存、网速"/>
+        <oaf_attribute name="panel:category" type="string" value="System &amp; Hardware"/>
+        <oaf_attribute name="panel:icon" type="string" value="/host/HY/Linux/Applets/icon.png"/>
+    </oaf_server>
+</oaf_info>
