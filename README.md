@@ -3,7 +3,7 @@
 
 ![image](preview.png)
 
-官方文档：https://projects.gnome.org/ORBit2/appletstutorial.html  
+GNOME Panel Applet官方文档：https://projects.gnome.org/ORBit2/appletstutorial.html  
 
 开发库：  
 Ubuntu：libpanel-applet
